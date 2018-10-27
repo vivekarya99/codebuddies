@@ -1,0 +1,6 @@
+export const setCommunity: ActionCreator<SetCommunityAction> = (id: string) => ({
+  type: '@@community/SET_COMMUNITY',
+  payload: {
+    id
+  }
+});
